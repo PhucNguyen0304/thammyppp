@@ -1,0 +1,265 @@
+.container-body {
+    padding: 0;
+}
+i{
+    color: black;
+    width: 20px;
+}
+.social i{
+    background-color: rgb(80,181,219);
+    color: white;
+    align-items: center;
+    margin-left: 15px;
+    padding-left: 4px;
+}
+.banner {
+    margin-top: 42px;
+    margin-bottom: 43px;
+}
+.pd{
+    width: 960px;
+}
+#menu li{
+    float: left;
+    list-style: none;
+}
+#menu a{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(73, 67, 67);
+    text-decoration: none;
+    padding: 5px 5px;
+    
+}
+.tt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h5{
+    color: rgb(56, 174, 213);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sdt{
+    color: rgb(7,164,226);
+    font-weight: bold;
+    margin-left: 60%;
+}
+#menu .name-nav:hover{
+    background-color: rgb(0,154,203);
+    color: white;
+}
+#menu li:hover #menu1{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.634);
+}
+#menu li:hover #menu2{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.634);
+}
+.diachi{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(0,163,228);
+}
+.footer img{
+    align-items: center;
+}
+h4{
+    color:rgb(0,163,228);
+}
+#p-2{
+    padding-top: 10px;
+}
+.coso{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.coso p{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(99, 89, 89);
+}
+/* chuong trinh uu dai */
+.ct{
+    position: relative;
+}
+
+#chuongtrinh{
+    padding-left: 15px;
+    position: absolute;
+    top:17%;
+    left: 0%;
+}
+#one, #two, #three{
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: rgb(48, 107, 255);
+    height: 582px;
+    cursor: pointer;
+    
+}
+#one a, #two a, #three a{
+     text-decoration: none;
+     font-style: italic;
+}
+#one{
+    padding:10px;
+   
+    
+}
+#two{
+    padding:10px;
+}
+#three{
+    padding:10px;
+}
+.pd{
+    padding: 0px;
+}
+.km1{
+    padding: 0px;
+}
+.km1 img{
+    float: left;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.km1 h5, .km1 p, .km1 a{
+    text-align: justify;
+    font-size: 12px;
+    margin: 0px;
+}
+.km1 a, .km2 a,.km3 a, .km4 a{
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.km2{
+    padding: 0px;
+}
+.km2 img{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.km2 h5, .km2 p, .km2 a{
+    text-align: justify;
+    font-size: 12px;
+    margin: 0px;
+}
+.km3{
+    padding: 0px;
+}
+.km3 img{
+    float: left;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.km3 h5, .km3 p, .km3 a{
+    text-align: justify;
+    font-size: 12px;
+    margin: 0px;
+}
+.km4{
+    padding: 0px;
+}
+.km4 img{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.km4 h5, .km4 p, .km4 a{
+    text-align: justify;
+    font-size: 12px;
+    margin: 0px;
+}
+.km {
+    margin: 17px 0;
+}
+.container-modal {
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1;
+    animation: fadeIn .6s ease-in;
+    display: none;
+}
+.container-modal h1{
+    color: rgb(0, 163, 228);
+}
+.km:hover {
+    cursor: pointer;
+    border: 1px solid rgb(0, 163, 228);;
+}
+.container-modal.open {
+    display: flex;
+}
+.modal {
+    width: 900px;
+    height: 450px;
+    display: flex;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fff;
+}
+.modal .close-btn {
+    color: #000000;
+    margin-left: 96%;
+    position: absolute;
+    z-index: 12;
+}
+.modal .close-btn:hover {
+    opacity: .7; 
+    font-weight: 700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.modal-col-1 {
+    width: 278px;
+    height: 452px;
+    background-color: red;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.modal-col-1> img {
+    width: 420px;
+    height: 453px;
+    position: relative;
+    left: -40%;
+    z-index: 12;
+    border-radius: 16px;
+}
+
+.modal-col-2 {
+    width: 620px;
+    height: 450px;
+    background-color: #ffffff;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 0;
+    padding-left: 5%;
+}
+.modal-col-2 p {
+    margin-top: 32px;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
